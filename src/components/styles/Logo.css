@@ -1,0 +1,26 @@
+.lv-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--cream);
+}
+
+.lv-logo--md { font-size: 22px; }
+.lv-logo--lg { font-size: 32px; }
+.lv-logo--sm { font-size: 16px; }
+
+.lv-logo__bulb {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: var(--marquee);
+  box-shadow: 0 0 10px 2px var(--marquee-glow);
+  flex-shrink: 0;
+}
+
+.lv-logo__accent {
+  color: var(--marquee);
+}

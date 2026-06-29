@@ -22,16 +22,16 @@ export const ROOM_STATUS = {
 
 export const currentUser = {
   id: 'u-001',
-  name: 'Aarav Sharma',
-  handle: '@aarav',
+  name: 'Harsh Anand',
+  handle: '@harshand',
   avatarColor: '#FF5A3C',
   isHost: true,
 };
 
 export const mockUsers = [
-  { id: 'u-001', name: 'Aarav Sharma', handle: '@aarav', avatarColor: '#FF5A3C' },
-  { id: 'u-002', name: 'Priya Nair', handle: '@priyan', avatarColor: '#7C6BFF' },
-  { id: 'u-003', name: 'Rohan Mehta', handle: '@rohanm', avatarColor: '#4ADE80' },
+  { id: 'u-001', name: 'Harsh Anand', handle: '@harshand', avatarColor: '#FF5A3C' },
+  { id: 'u-002', name: 'Manas Bagalia', handle: '@manasb', avatarColor: '#7C6BFF' },
+  { id: 'u-003', name: 'Kanishk Panwar', handle: '@kanishk', avatarColor: '#4ADE80' },
   { id: 'u-004', name: 'Sneha Iyer', handle: '@sneha_i', avatarColor: '#FFD166' },
   { id: 'u-005', name: 'Kabir Singh', handle: '@kabirs', avatarColor: '#06D6A0' },
   { id: 'u-006', name: 'Meera Joshi', handle: '@meeraj', avatarColor: '#EF476F' },
@@ -44,8 +44,8 @@ export const mockRooms = [
     contentType: CONTENT_TYPES.MOVIE,
     visibility: ROOM_VISIBILITY.PUBLIC,
     status: ROOM_STATUS.LIVE,
-    hostName: 'Priya Nair',
-    hostId: 'u-002',
+    hostName: 'Kanishk Panwar',
+    hostId: 'u-003',
     viewerCount: 248,
     posterColor: '#1B2A4A',
     description: 'Wormholes, watches, and a whole lot of crying. Bring tissues.',
@@ -58,8 +58,8 @@ export const mockRooms = [
     contentType: CONTENT_TYPES.SERIES,
     visibility: ROOM_VISIBILITY.PUBLIC,
     status: ROOM_STATUS.LIVE,
-    hostName: 'Kabir Singh',
-    hostId: 'u-005',
+    hostName: 'Manas Bagalia',
+    hostId: 'u-002',
     viewerCount: 132,
     posterColor: '#4A1B2A',
     description: 'Season finale watch party. No spoilers in chat or you get muted.',

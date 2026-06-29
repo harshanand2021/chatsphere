@@ -1,0 +1,110 @@
+.auth-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-page__backdrop {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle 500px at 20% 20%, var(--marquee-glow), transparent 70%),
+    radial-gradient(circle 500px at 85% 80%, var(--violet-glow), transparent 70%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.auth-card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  background: var(--ink-raised-2);
+  border: 1px solid var(--velvet);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px 32px;
+  box-shadow: var(--shadow-lift);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.auth-card__logo {
+  margin-bottom: 6px;
+}
+
+.auth-card__tagline {
+  color: var(--cream-dim);
+  font-size: 14.5px;
+  margin-bottom: 28px;
+  max-width: 300px;
+}
+
+.auth-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+}
+
+.auth-field span {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--cream-dim);
+  letter-spacing: 0.02em;
+}
+
+.auth-field input {
+  background: var(--ink);
+  border: 1.5px solid var(--velvet);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  color: var(--cream);
+  font-size: 15px;
+  transition: border-color 0.15s ease;
+}
+
+.auth-field input::placeholder {
+  color: var(--mute);
+}
+
+.auth-field input:focus {
+  border-color: var(--marquee);
+  outline: none;
+}
+
+.auth-error {
+  background: rgba(255, 107, 107, 0.1);
+  border: 1px solid rgba(255, 107, 107, 0.3);
+  color: var(--danger);
+  font-size: 13px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  text-align: left;
+}
+
+.auth-switch {
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--cream-dim);
+}
+
+.auth-switch a {
+  color: var(--marquee);
+  font-weight: 600;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
